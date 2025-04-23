@@ -34,11 +34,16 @@ This is a **backend-only clone of Quora**, built using **Spring Boot**. It inclu
 
 ## 📁 Project Structure
 
-src/ ├── config/ # JWT, security configs ├── controller/ # REST API endpoints ├── dto/ # Request/Response payloads ├── entity/ # JPA Entities ├── exception/ # Global exception handling ├── repository/ # Spring Data Repositories ├── service/ # Business logic └── QuoraApplication.java # Main class
+src/ ├── config/ # JWT, security configs 
+     ├── controller/ # REST API endpoints 
+     ├── dto/ # Request/Response payloads 
+     ├── entity/ # JPA Entities 
+     ├── exception/ # Global exception handling 
+     ├── repository/ # Spring Data Repositories 
+     ├── service/ # Business logic 
+     └── QuoraApplication.java # Main class
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -63,20 +68,15 @@ Edit
 ```bash
 git clone https://github.com/Abhishek91102/Quora.git
 cd Quora
+
 2. Configure MySQL in application.properties
-properties
-Copy
-Edit
 spring.datasource.url=jdbc:mysql://localhost:3306/quora_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
-
 jwt.secret=your_jwt_secret_key
 spring.jpa.hibernate.ddl-auto=update
+
 3. Run the App
-bash
-Copy
-Edit
 ./mvnw spring-boot:run
 📊 Database Schema (ER Diagram)
 Here’s a basic outline of the database entities:
