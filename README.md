@@ -34,14 +34,7 @@ This is a **backend-only clone of Quora**, built using **Spring Boot**. It inclu
 
 ## 📁 Project Structure
 
-src/ ├── config/ # JWT, security configs 
-     ├── controller/ # REST API endpoints 
-     ├── dto/ # Request/Response payloads 
-     ├── entity/ # JPA Entities 
-     ├── exception/ # Global exception handling 
-     ├── repository/ # Spring Data Repositories 
-     ├── service/ # Business logic 
-     └── QuoraApplication.java # Main class
+<pre> ```bash src/ ├── config/ # JWT, security configs ├── controller/ # REST API endpoints ├── dto/ # Request/Response payloads ├── entity/ # JPA Entities ├── exception/ # Global exception handling ├── repository/ # Spring Data Repositories ├── service/ # Business logic └── QuoraApplication.java # Main class ``` </pre>
 
 
 
